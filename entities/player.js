@@ -29,12 +29,6 @@ export class Player extends Obj {
             }
         });
     }
-
-    isOnGround() {
-        // Example: Check if the player is on the ground. Adjust according to your game environment.
-        return this.y >= 300; // Replace '300' with your ground level
-    }
-
     update() {
         // Gravity simulation
         this.d.y += 0.5; // Adjust gravity value as needed
