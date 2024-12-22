@@ -11,7 +11,7 @@ let height = canvas.height;
 
 export const elasticity = 0.5;
 export const g = 0.3;
-export const AirFriction = 0.99;
+export const AirFriction = 1.99;
 
 let entities = {
     '#': (x, y) => new Block(x, y),
