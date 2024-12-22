@@ -29,5 +29,3 @@ export class Player extends Obj {
             }
         });
     }
-
-there
