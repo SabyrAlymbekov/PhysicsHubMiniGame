@@ -9,7 +9,7 @@ let ctx = canvas.getContext("2d");
 let width = canvas.width;
 let height = canvas.height;
 
-export const elasticity = 0.5;
+export const elasticity = 0.9;
 export const g = 0.3;
 export const AirFriction = 0.99;
 
