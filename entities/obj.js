@@ -75,7 +75,7 @@ export class CircleObj {
     }
   }
 handleCircleCollision(otherCircle, coords, d) {
-  console.log("wer")
+  
   otherCoords = otherCircle.coords;
   otherd = otherCircle.d;
   const nx = otherCoords.x - coords.x;
