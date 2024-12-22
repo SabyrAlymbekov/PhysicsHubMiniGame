@@ -37,12 +37,6 @@ export class Player extends Obj {
         this.x += this.d.x;
         this.y += this.d.y;
 
-        // Prevent falling below ground level
-        if (this.y >= 300) { // Replace '300' with your ground level
-            this.y = 300;
-            this.d.y = 0; // Stop vertical velocity when on the ground
-        }
-
         // Apply friction when no horizontal acceleration
         if (this.a.x === 0) {
             this.d.x *= 0.9; // Friction slows horizontal movement gradually
