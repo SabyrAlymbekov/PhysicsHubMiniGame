@@ -13,11 +13,11 @@ export class Player extends Obj {
 
     start() {
         window.addEventListener("keydown", (e) => {
-            if (e.key === 'd'|| e.key === 'ArrowRight') {
+            if (e.key === 'd' || e.key === 'ArrowRight') {
                 this.a.x = 0.3;
-            } else if (e.key === 'a'|| e.key === 'ArrowLeft') {
+            } else if (e.key === 'a' || e.key === 'ArrowLeft') {
                 this.a.x = -0.3;
-            } else if (e.key === ' '|| e.key === 'ArrowUp' || e.key === 'w') {
+            } else if (e.key === ' ' || e.key === 'ArrowUp' || e.key === 'w') {
                 this.d.y = -9;
             }
         });
